@@ -658,3 +658,51 @@ select:focus {
         border-inline: 1px solid var(--line);
     }
 }
+
+.auth-page {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+    padding: 24px 16px;
+}
+
+.auth-card {
+    width: min(420px, 100%);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.auth-brand {
+    margin-bottom: 8px;
+}
+
+.auth-card h2 {
+    margin: 0 0 4px;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+}
+
+.auth-card .btn.primary {
+    width: 100%;
+    min-height: 44px;
+    margin-top: 4px;
+}
+
+.auth-switch {
+    margin: 4px 0 0;
+    color: var(--muted);
+    font-size: 14px;
+    text-align: center;
+}
+
+.auth-switch a {
+    color: var(--ink);
+    font-weight: 600;
+}
