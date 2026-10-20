@@ -73,6 +73,9 @@ export default function LoginPage() {
         <p className="auth-switch">
           Нет аккаунта? <Link href="/register">Зарегистрироваться</Link>
         </p>
+        <p className="auth-switch">
+          <Link href="/landing">О проекте</Link>
+        </p>
       </form>
     </div>
   );

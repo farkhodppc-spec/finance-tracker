@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
     --bg: #f3efe6;
     --surface: #fffdf8;
@@ -10,6 +12,55 @@
     --expense-soft: #fbeceb;
     --shadow: 0 10px 30px rgba(48, 36, 18, 0.06);
     --radius: 16px;
+
+    --background: 40 33% 93%;
+    --foreground: 30 14% 10%;
+    --card: 40 60% 98%;
+    --card-foreground: 30 14% 10%;
+    --popover: 40 60% 98%;
+    --popover-foreground: 30 14% 10%;
+    --primary: 30 14% 10%;
+    --primary-foreground: 40 40% 94%;
+    --secondary: 36 28% 90%;
+    --secondary-foreground: 30 14% 10%;
+    --muted-foreground: 30 8% 40%;
+    --accent: 36 28% 90%;
+    --accent-foreground: 30 14% 10%;
+    --destructive: 6 58% 49%;
+    --border: 36 24% 85%;
+    --input: 36 24% 85%;
+    --ring: 36 24% 70%;
+    --chart-1: 142 60% 30%;
+    --chart-2: 6 58% 49%;
+    --chart-3: 36 80% 45%;
+    --chart-4: 24 30% 35%;
+    --chart-5: 10 40% 45%;
+}
+
+@theme inline {
+    --color-background: hsl(var(--background));
+    --color-foreground: hsl(var(--foreground));
+    --color-card: hsl(var(--card));
+    --color-card-foreground: hsl(var(--card-foreground));
+    --color-popover: hsl(var(--popover));
+    --color-popover-foreground: hsl(var(--popover-foreground));
+    --color-primary: hsl(var(--primary));
+    --color-primary-foreground: hsl(var(--primary-foreground));
+    --color-secondary: hsl(var(--secondary));
+    --color-secondary-foreground: hsl(var(--secondary-foreground));
+    --color-muted: hsl(36 28% 90%);
+    --color-muted-foreground: hsl(var(--muted-foreground));
+    --color-accent: hsl(var(--accent));
+    --color-accent-foreground: hsl(var(--accent-foreground));
+    --color-destructive: hsl(var(--destructive));
+    --color-border: hsl(var(--border));
+    --color-input: hsl(var(--input));
+    --color-ring: hsl(var(--ring));
+    --radius-sm: calc(var(--radius) - 4px);
+    --radius-md: calc(var(--radius) - 2px);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) + 4px);
+    --font-sans: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 * {

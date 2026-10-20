@@ -9,8 +9,15 @@ Next.js-приложение с регистрацией, входом и хра
 3. Примените миграцию: `node --env-file=.env.local scripts/migrate.mjs`
 4. Запустите: `npm run dev`
 
+## Страницы
+
+- `/landing` — презентация проекта (shadcn/ui + Motion, parallax при скролле)
+- `/login`, `/register` — вход и регистрация
+- `/` — трекер (нужен аккаунт)
+
 ## Стек
 
 - Next.js (App Router)
 - Neon Postgres
 - Vercel
+- shadcn/ui, Motion (`motion`) — на лендинге

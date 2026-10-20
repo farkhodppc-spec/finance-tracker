@@ -74,6 +74,9 @@ export default function RegisterPage() {
         <p className="auth-switch">
           Уже есть аккаунт? <Link href="/login">Войти</Link>
         </p>
+        <p className="auth-switch">
+          <Link href="/landing">О проекте</Link>
+        </p>
       </form>
     </div>
   );
